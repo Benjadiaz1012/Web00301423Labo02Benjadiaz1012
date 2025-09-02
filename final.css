@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; line-height: 1.5; }
+
+.page {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 220px 220px 1fr; 
+  grid-auto-rows: 150px;  
+  gap: 16px;
+  max-width: 1100px;
+  padding: 24px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+}
+
+.cubo{
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #f9fafb;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden; 
+}
+
+.cubo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
